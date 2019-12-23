@@ -1,0 +1,172 @@
+main {
+    padding: 0;
+    margin: 0;   overflow: hidden;
+}
+
+header {
+    height: 100px;
+    padding: 0 20px;
+    background-color: black;
+}
+
+.logo {
+    line-height: 100px;
+    float: left;
+    color: white;
+    font-size: 2em;
+}
+
+.menu {
+    margin-top: 10px;
+    float: right;
+    line-height: 100px;
+}
+
+.menu a {
+    font-size: 1em;
+    font-family: arial;
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+}
+
+.menu a:hover {
+    border: 5px rgb(42, 129, 201) solid;
+}
+
+/* SOBRE MI  */
+
+
+.about {  
+    width: 80%;
+    height: auto;
+    display: flex;
+}
+
+.about .img-redonda {
+    max-width: 100%;
+    height: 216px;
+    padding-left: 150px;
+    margin: 15px;
+   
+}
+
+.me {
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: bold;
+    color: #c8c8c8;
+    padding: 0 0 0 120px;
+    margin: 50px;
+   
+}
+
+.bio  p{
+    font-family: Arial;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 15px;
+
+}
+
+.redes{
+   
+    margin: 20px;
+}
+
+.redes img{
+    border-radius: 100%;
+    width: 5%;
+    padding: 2px;
+}
+
+
+.redes img:hover{
+    background-color: red;
+}
+
+/* MI PORTAFOLIO */
+
+.portafolio{
+  position: relative;
+ 
+}
+
+.portafolio img{
+    border: 10px grey solid;
+    margin-left: 2px;
+    margin-right: 20px;
+}
+
+.portafolio figure{
+    width: 100%;
+    margin: auto;
+    padding-left: 150px;
+    
+    
+}
+
+/* MIS HABILIDADES */
+
+ .perfil{
+   
+     width: 100%;
+     position: relative;
+  
+   
+}
+/* .perfil h3{
+    margin: 20px;
+    padding-top: 30px;
+} */
+
+.perfil  .skills h3{
+  
+    margin: 10px;
+    font-size: 13px;
+    font-family: helvetica;
+   width: 130px;
+
+  
+}
+
+
+.perfil .skills {
+    width: 80%;
+   height: auto;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+   
+  .skills > div {
+    width:35%;
+  
+  }
+  
+  .perfil .progress-bg {
+    position: relative;
+    width: 50%;
+    background-color: grey;
+    height: 20px;
+    border-radius: 20px;
+    margin: auto ;
+    margin-right: 150px;
+    bottom: 30px;
+  }
+  
+  .perfil .progress-f {
+    width: 30%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #42704e;
+  }
+  
+  .perfil .progress-f2 {
+    border-radius: 11px;
+    border: solid 1px #d5d5d5;
+    background-color: #f0f0f0;
+  }
+  
