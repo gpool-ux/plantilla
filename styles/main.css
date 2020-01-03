@@ -154,23 +154,111 @@ header {
     background-color: #f0f0f0;
 }
 
-/* CONTACTO */
+/*
+* Contacto
+*/
 
-.contact a{
+
+.contact {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .title_contact{
+    position: absolute;
+  }
+  .form{
+  
+    width: 60%;
+    border-right: 1px solid #5c565685;
+    font-size:0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .address {
+    width: 40%;
+  
+  }
+  .contact form{
+    margin-top: 60px;
+    margin-left: 30px;
+  }
+  .form_top, 
+  .form_middle,
+  .form_bottom{
+    display: flex;
    
-    padding: 20px;
-    margin:455px;
-    border: solid 1px #d5d5d5;
-    background-color: #42704e;
+  }
+  .form_top div,
+  .form_middle div,
+  .form_bottom  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+    justify-content: space-between;
+    color: black;
+  }
+  
+  .form form input{
+    width: 95%;
+    height: 30px;
+    border-style: none;
+    border: 1px solid #5c565685;
+    margin-top: 5px;
+    box-shadow: none;
+    
+  }
+  .form textarea {
+    width: 97%;
+    margin-top: 5px;
+    border: 1px solid #5c565685;
+  }
+  .form textarea:focus{
+    border: 2px solid #42704e; 
+  }
+  
+  
+  .form form input:invalid:focus{
+    border: 2px solid #ec2a07;
+    box-shadow: none;
+  }
+  .form form input:invalid:focus{
+    border: 2px solid #42704e;
+    box-shadow: none;
+  }
+  
+  
+  .button input[type="submit"]  {
+    display:inline-block;
+    width: 160px;
+    height: 40px;
     color: white;
-    text-decoration: none;
-}
-
-
-
-
-
-
+    background-color: #42704e;
+  
+  }
+  
+  .button input[type="submit"]:hover{
+    background-color: cadetblue;
+  }
+  .address {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  .address h4{
+    font-weight: bold;
+  }
+  .address h4,
+  .address p {
+    margin: 5px 0px 10px 20px;
+  }
+  
+  
 
 
 

@@ -174,40 +174,59 @@
                 
               </section>
           
-            <section class="contacto">
-                <div class="contact">
-                    <h2 class="me">|Contactame</h2>
-                    <form action="post">
-                        Nombre <input type="text">
-                        RR <input type="text">
-                        Numero de Contacto <input type="number">
-                        Correo <input type="email">
-                        Dejame un mensaje <textarea name="" id="" cols="30" rows="10"></textarea>
-                      
-                    </form>
-                    <br> <br> <br>
-                        <div>
-                            <a href="">ENVIAR</a>
-                        </div>
-                    <div class="direccion">
-                        Direccion<br>
-                        Av. Jose Leal 546 - Lima/Përu <br>
-
-                        Telefono<br>
-                        00511 - 923708059/ 00511 - 5483161<br>
-
-                        Email<br>
-                        contactanos@gmail.com
+              <section class="contact">
+          
+                <div class="form" style="margin: 0; padding: 40;">
+                  <div class="title_contact">
+                    <h2 style="text-align: center;">Contáctame</h2>  
+                  </div>
+                  <form action="">
+                    <div class="form_top">
+                      <div>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" minlength="1" maxlength="100" pattern="[a-zA-Z]+" required>
+                      </div>
+                      <div>
+                        <label for="lastname">Apellido</label>
+                        <input type="text" name="lastname" minlength="1" maxlength="100" pattern="[a-zA-Z]+" required>
+                      </div>
                     </div>
+                    <div class="form_middle">
+                      <div>
+                        <label for="phone">Número de contacto</label>
+                        <input type="text" name="phone" minlength="1" maxlength="12" pattern="[0-9]+" >
+                      </div>
+                      <div>
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" minlength="10" maxlength="100" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,}" required>
+                      </div>
+                    </div>
+                    <div class=form_bottom>
+                      <label for="">Dejanos un mensaje</label>
+                      <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="button">
+                      <input type="submit" value="Enviar">
+                    </div>
+                  </form>
+                </div>
+                <div class="address">
+                    <h4>Dirección</h4>
+                    <p>Av. José Leal 548 - Lima / Perú</p>
+                    <h4>Teléfono</h4>
+                    <p>00511 - 985784532 / 00511 - 987545366</p> 
+                    <h4>Email</h4>
+                    <p>contacto@gmail.com</p>               
                 </div>
             </section>
-            <section >
-                <footer >
-                    <h3 class="copy"> Todos los derechos reservados | 2019</h3>
-                    <h3 class="by"> Desarrollado por codiGO</h3>
-                </footer>
-            </section>
+           
             </main>
+            
+            <footer >
+                <h3 class="copy"> Todos los derechos reservados | 2019</h3>
+                <h3 class="by"> Desarrollado por codiGO</h3>
+            </footer>
         </div>
+        
     </body>
 </html>
